@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "リンク可視化くん",
+  "version": "1.0",
+  "description": "すべてのリンク先URLを表示します。",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+}
