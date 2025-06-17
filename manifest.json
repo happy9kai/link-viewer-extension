@@ -2,12 +2,25 @@
   "manifest_version": 3,
   "name": "リンク可視化くん",
   "version": "1.0",
-  "description": "すべてのリンク先URLを表示します。",
+  "description": "リンクにマウスを乗せると、リンク先のドメイン名をカーソル付近に表示します。安全確認に便利です。",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
   ],
-  "permissions": []
+  "permissions": [],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "リンク可視化くん"
+  }
 }
