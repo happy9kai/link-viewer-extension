@@ -33,3 +33,11 @@
 
 ---
 
+## ☁ GitHub Copilot 対象プロジェクト
+
+このリポジトリは MIT ライセンスで公開されており、GitHub の Open Source Program の対象となることを目指しています。
+
+- GitHub Copilot を無料で使いたい開発者のための OSS プロジェクトです。
+- 貢献や改善、提案など大歓迎です！
+
+
