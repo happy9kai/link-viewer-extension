@@ -1,5 +1,3 @@
-# 🕵️‍♂️ リンク可視化くん - Link Domain Tooltip
-
 # 🕵️‍♂️ Link Visualizer - Link Domain Tooltip
 
 When you hover your mouse cursor over a link on any webpage, a **tooltip showing the destination domain name** (e.g., `example.com`) will appear near your cursor.  
@@ -68,6 +66,7 @@ This Chrome extension shows the **domain of any hovered link** in real time.
 - Tooltip processing is fully contained **within your browser**  
 - **No data is sent to external servers**
 
+# 🕵️‍♂️ リンク可視化くん - Link Domain Tooltip
 
 マウスカーソルをWebページ上のリンクに乗せると、**リンク先のドメイン名**（例：`example.com`）がカーソル近くに小さく表示されます。  
 普段は何も表示されず、**ユーザーの操作に合わせて最小限の情報だけを提示**します。
