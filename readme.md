@@ -1,5 +1,74 @@
 # 🕵️‍♂️ リンク可視化くん - Link Domain Tooltip
 
+# 🕵️‍♂️ Link Visualizer - Link Domain Tooltip
+
+When you hover your mouse cursor over a link on any webpage, a **tooltip showing the destination domain name** (e.g., `example.com`) will appear near your cursor.  
+Normally, nothing is displayed—it only shows **minimal info when needed**, matching your interaction.
+
+---
+
+## 🧠 Features
+
+- 🔍 **Anti-phishing**: Instantly reveal where a link leads  
+- 🧘 **Clutter-free UI**: Nothing is shown unless hovered, reducing distraction  
+- 🖱️ **Tooltip appears only on hover**, with a smooth fade-in  
+- 💻 **Fully local**: No data is sent or stored  
+- 🧼 **Does not change page layout**
+
+---
+
+## 🛠️ How to Use
+
+1. Clone or download this repository  
+2. Open `chrome://extensions` in Chrome  
+3. Enable "Developer Mode"  
+4. Click "Load unpacked" and select this folder
+
+---
+
+## 🔐 Security
+
+- 🔒 No external APIs or communications  
+- 🔒 No interference with input fields or passwords  
+- 🔒 No data collection, transmission, or storage  
+- ✅ All code is publicly available in this repository
+
+---
+
+## ☁ GitHub Copilot Eligible Project
+
+This project is MIT licensed and aims to qualify for the [GitHub Open Source Program](https://github.com/community).  
+It's perfect for developers who want to use GitHub Copilot for free through OSS contributions.
+
+- Contributions, suggestions, and improvements are warmly welcome!
+
+---
+
+## 🧠 Feature Details (v1.1.0+)
+
+This Chrome extension shows the **domain of any hovered link** in real time.
+
+- 🔍 Shows domain instantly on hover  
+- 🟩 Green background for **HTTPS** (secure)  
+- 🟥 Red background for **HTTP or others** (caution)  
+- 🌀 Tooltip smoothly follows the cursor  
+- 🔄 Fast switching between links with no lingering artifacts  
+- 🧩 Tooltip hides automatically when not needed
+
+### 💡 Useful For
+
+- Spotting phishing or fake websites at a glance  
+- Confirming where a link *really* goes  
+- Revealing obfuscated or JavaScript-generated links
+
+---
+
+## 🛡 Security Policy
+
+- Tooltip processing is fully contained **within your browser**  
+- **No data is sent to external servers**
+
+
 マウスカーソルをWebページ上のリンクに乗せると、**リンク先のドメイン名**（例：`example.com`）がカーソル近くに小さく表示されます。  
 普段は何も表示されず、**ユーザーの操作に合わせて最小限の情報だけを提示**します。
 
