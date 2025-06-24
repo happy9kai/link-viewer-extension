@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "リンク可視化くん",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "リンクにマウスを乗せると、リンク先のドメイン名をカーソル付近に表示します。安全確認に便利です。",
   "icons": {
     "16": "icon16.png",
